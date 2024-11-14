@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #taskManager {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
